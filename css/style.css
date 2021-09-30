@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(127, 250, 183);
+  }
+  
+  h1 {
+    color: rgb(7, 7, 7);
+    margin-left: 20px;
+    font-size : 20px;
+    text-align: center;
+  }
+  #para1 {
+    text-align: center;
+    color: rgb(8, 8, 8);
+  }
+  .center {
+    text-align: center;
+    color: red;
+  }
