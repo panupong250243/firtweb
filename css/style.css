@@ -1,36 +1,15 @@
-body {
-    background-color: rgb(127, 250, 183);
+body 
+{
+    background-color: rgb(151, 247, 194);
   }
-  
   h1 {
-    color: rgb(7, 7, 7);
+    color: rgb(1, 10, 6);
     margin-left: 20px;
     font-size : 50px;
     text-align: center;
   }
-  #p2
-  {
-    text-align: center;
-    margin-left: 20px;
-    font-size : 50px;
-    color: rgb(233, 166, 22);
-  }
-  #para1 {
-    text-align: center;
-    color: rgb(8, 8, 8);
-  }
   
-  
-  h1 {
-    color: rgb(10, 10, 4);
-    margin-left: 20px;
-    font-size:30px;
-  }
-  #para1 {
-    text-align: center;
-    color: rgb(0, 183, 255);
-  }
-  .center {
+.center {
     text-align: center;
     color: rgb(25, 28, 201)
     font: size 18px;
