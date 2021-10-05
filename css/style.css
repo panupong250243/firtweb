@@ -19,16 +19,10 @@ body {
     text-align: center;
     color: rgb(8, 8, 8);
   }
-  .center {
-    text-align: center;
-    color: red;
-  }
-  body {
-    background-color: rgb(0, 196, 245);
-  }
+  
   
   h1 {
-    color: rgb(251, 255, 0);
+    color: rgb(10, 10, 4);
     margin-left: 20px;
     font-size:30px;
   }
@@ -38,5 +32,13 @@ body {
   }
   .center {
     text-align: center;
-    color: rgb(141, 238, 84);
+    color: rgb(25, 28, 201)
+    font: size 18px;
   }
+.btn
+{
+  width:60px;
+  margin:auto;
+  
+
+}

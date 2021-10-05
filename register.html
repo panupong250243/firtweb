@@ -9,29 +9,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Register.html</h1>
-    <form>
-        <p>ชื่อ : <input type="text"></p>
-        <p>นามสกุล : <input type="text"></p>
-        <p>email : <input type="email"></p>
-        <p>วันเกิด : <input type="date"></p>
-        <p>น้ำหนัก : <input type="number" min="1" max="500"></p>
-        <p>ส่วนสูง : <input type="number" min="1" max="200"></p>
-            <form>
+    <h1>Register</h1>
+    <form class="center">
+        <center>
+        <p>ชื่อ : <input type="text"> นามสกุล : <input type="text"></p>
+        <p>Email : <input type="email"> วันเกิด : <input type="date"></p>
+        <p>น้ำหนัก : <input type="number" min="1" max="500" > ส่วนสูง : <input type="number" min="1" max="200"></p>
+            <form >
                 <label for="myfile">ใส่รูปภาพ :</label>
                 <input type="file" id="myfile" name="myfile">
               </form>
-        <p>password : <input type="password"></p>
-        <p>Gender : <input type="radio" name="gender" value="male" >ชาย
+        <p class="center">password : <input type="password"></p>
+        <p class="center">Gender : <input type="radio" name="gender" value="male" >ชาย
                   : <input type="radio" name="gender" value="female" >หญิง
             </p>
-        <p>สีที่ชอบ : <input type="color"></p>
-        <p>ประเทศที่ชอบ : <input type="checkbox" name="Country1" value="Thailand" >Thailand
+        <p class="center">สีที่ชอบ : <input type="color"></p>
+        <p class="center">ประเทศที่ชอบ : <input type="checkbox" name="Country1" value="Thailand" >Thailand
                       <input type="checkbox" name="Country2" value="Japan" >Japan
                       <input type="checkbox" name="Country3" value="Australia">Australia
             </p>
-        <input type="submit" value="ตกลง">
-        <input type="reset" value="ยกเลิก">
+    
+        <p>
+        <input type="submit" value="ตกลง" >  <input type="reset" value="ยกเลิก">
+        </p>
+        
+    </center>
     </form>
 </body>
 </html>
