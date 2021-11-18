@@ -3,6 +3,11 @@
     padding: 0px;
     font: 12px Verdana;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+    font: 12px Verdana;
+}
 h1{ font: bold 20px Verdana ;
     color: rgb(247, 243, 243);
 }
